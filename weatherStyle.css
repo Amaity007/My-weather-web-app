@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    height: 600px;
+    width: 350px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 15px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 25px;
+}
+
+.card .search input {
+    height: 35px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card .search button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button img {
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+}
+
+.mainBody {
+    /* background-color: red; */
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBody img {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 35px;
+}
+
+.mainBody h1 {
+    font-size: 45px;
+}
+
+.mainBody h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.details {
+    position: absolute;
+    /* background-color: red; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin-top: 300px;
+
+}
+
+.details .humidity img {
+    height: 40px;
+    width: 40px;
+}
+
+.details .humidity p {
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.details .wspeed img {
+    height: 50px;
+    width: 50px;
+}
+
+.details .wspeed p {
+    font-size: 15px;
+    font-weight: 550;
+}
+.tag{
+    /* background-color: red; */
+    width: fit-content;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 230px;
+    font-style: italic;
+    margin-top: 460px;
+    color: #222;
+}
+/* .mainBody{
+    display: none;
+}
+.details{
+    display: none;
+} */
